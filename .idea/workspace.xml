@@ -2,20 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5519499b-d5fa-4d7b-ac5c-ecce5a9ac6e5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Motors.Test.Project.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/uk/motors/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/co/uk/motors/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/co/uk/motors/features/CustomerCanSearchForCarsForSale.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/co/uk/motors/runners/TestRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/co/uk/motors/App.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/co/uk/motors/AppTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/co/uk/motors/runners/TestRunner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/co/uk/motors/Common/BrowserClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/co/uk/motors/Common/DriverLib.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/co/uk/motors/Page/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/co/uk/motors/Page/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/co/uk/motors/hooks/Hook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/co/uk/motors/stepDefinations/ForSaleSeachStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/motors/features/CustomerCanSearchForCarsForSale.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/uk/motors/features/CustomerCanSearchForCarsForSale.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/motors/runners/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/uk/motors/runners/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/co/uk/motors/runners/TestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/co/uk/motors/runners/TestRunner.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +30,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -54,6 +51,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="co.uk.motors.pages" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -95,25 +97,41 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="356" y="174" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1589407157266" />
-    <state width="1323" height="196" key="GridCell.Tab.0.bottom" timestamp="1589823726857">
+    <state x="413" y="114" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1590742875773">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="196" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1589823726857" />
-    <state width="1323" height="196" key="GridCell.Tab.0.center" timestamp="1589823726857">
+    <state x="413" y="114" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1590742875773" />
+    <state width="1323" height="2" key="GridCell.Tab.0.bottom" timestamp="1590834208488">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="196" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1589823726857" />
-    <state width="1323" height="196" key="GridCell.Tab.0.left" timestamp="1589823726857">
+    <state width="1323" height="2" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590834208488" />
+    <state width="1323" height="2" key="GridCell.Tab.0.center" timestamp="1590834208488">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="196" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1589823726857" />
-    <state width="1323" height="196" key="GridCell.Tab.0.right" timestamp="1589823726857">
+    <state width="1323" height="2" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1590834208488" />
+    <state width="1323" height="2" key="GridCell.Tab.0.left" timestamp="1590834208488">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="196" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1589823726857" />
-    <state x="391" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1589807035258">
+    <state width="1323" height="2" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1590834208488" />
+    <state width="1323" height="2" key="GridCell.Tab.0.right" timestamp="1590834208488">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="391" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1589807035258" />
+    <state width="1323" height="2" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1590834208488" />
+    <state x="213" y="22" key="Maven.ArtifactSearchDialog" timestamp="1590741006250">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="213" y="22" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1590741006250" />
+    <state x="391" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1590330203745">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="391" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1590330203745" />
+    <state x="494" y="283" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589831841402">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="494" y="283" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1589831841402" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1590827680351">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1590827680351" />
   </component>
 </project>

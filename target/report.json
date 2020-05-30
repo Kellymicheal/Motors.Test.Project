@@ -1,0 +1,357 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-05-30T09:59:05.164Z",
+        "before": [
+          {
+            "result": {
+              "duration": 11201000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "co.uk.motors.hooks.Hook.setUp()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Customer can search for cars for sale",
+        "description": "",
+        "id": "search-for-cars-for-sale;customer-can-search-for-cars-for-sale;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1436000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "co.uk.motors.hooks.Hook.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6303000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I navigate to motors homepage",
+            "match": {
+              "location": "co.uk.motors.stepDefinations.ForSaleSeachStep.i_navigate_to_motors_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1153000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter \"M9 4wq\" of my house",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"M9 4wq\"",
+                  "offset": 8
+                }
+              ],
+              "location": "co.uk.motors.stepDefinations.ForSaleSeachStep.i_enter_of_my_house(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 769000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter \"Toyota\" of the car",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Toyota\"",
+                  "offset": 8
+                }
+              ],
+              "location": "co.uk.motors.stepDefinations.ForSaleSeachStep.i_enter_of_the_car(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: Cannot locate element with text: c-hr\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-712M3LL7\u0027, ip: \u0027192.168.1.175\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_241\u0027\nDriver info: driver.version: unknown\r\n\tat org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)\r\n\tat co.uk.motors.Page.BasePage.SelectElementByVisibleText(BasePage.java:31)\r\n\tat co.uk.motors.Page.HomePage.selectcarmodel(HomePage.java:40)\r\n\tat co.uk.motors.stepDefinations.ForSaleSeachStep.i_select_of_the_car(ForSaleSeachStep.java:35)\r\n\tat ✽.I select \"c-hr\" of the car(file:///C:/Motor.Project/Motors.Test.Project/src/test/java/co/uk/motors/features/CustomerCanSearchForCarsForSale.feature:10)\r\n",
+              "duration": 10360000000,
+              "status": "failed"
+            },
+            "line": 10,
+            "name": "I select \"c-hr\" of the car",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"c-hr\"",
+                  "offset": 9
+                }
+              ],
+              "location": "co.uk.motors.stepDefinations.ForSaleSeachStep.i_select_of_the_car(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I select \"£10,000\" of the car",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"£10,000\"",
+                  "offset": 9
+                }
+              ],
+              "location": "co.uk.motors.stepDefinations.ForSaleSeachStep.i_select_of_the_car(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "I select \"£15000\" of the car",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"£15000\"",
+                  "offset": 9
+                }
+              ],
+              "location": "co.uk.motors.stepDefinations.ForSaleSeachStep.i_select_of_the_car(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "I click on monthly cost",
+            "match": {
+              "location": "co.uk.motors.stepDefinations.ForSaleSeachStep.i_click_on_monthly_cost()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "I click on search button",
+            "match": {
+              "location": "co.uk.motors.stepDefinations.ForSaleSeachStep.i_click_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "new car page is displayed",
+            "match": {
+              "location": "co.uk.motors.stepDefinations.ForSaleSeachStep.new_car_page_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "I click on any result to view more detail",
+            "match": {
+              "location": "co.uk.motors.stepDefinations.ForSaleSeachStep.i_click_on_any_result_to_view_more_detail()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-05-30T09:59:36.814Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6843000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "co.uk.motors.hooks.Hook.setUp()"
+            }
+          }
+        ],
+        "line": 36,
+        "name": "Customer cannot search for cars for sale",
+        "description": "",
+        "id": "search-for-cars-for-sale;customer-cannot-search-for-cars-for-sale;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1354000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "co.uk.motors.hooks.Hook.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5262000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I navigate to motors homepage",
+            "match": {
+              "location": "co.uk.motors.stepDefinations.ForSaleSeachStep.i_navigate_to_motors_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 540000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I enter \"\" of my house",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 8
+                }
+              ],
+              "location": "co.uk.motors.stepDefinations.ForSaleSeachStep.i_enter_of_my_house(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: Cannot locate element with text: Nisan\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-712M3LL7\u0027, ip: \u0027192.168.1.175\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_241\u0027\nDriver info: driver.version: unknown\r\n\tat org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)\r\n\tat co.uk.motors.Page.BasePage.SelectElementByVisibleText(BasePage.java:31)\r\n\tat co.uk.motors.Page.HomePage.selectCarMake(HomePage.java:36)\r\n\tat co.uk.motors.stepDefinations.ForSaleSeachStep.i_enter_of_the_car(ForSaleSeachStep.java:29)\r\n\tat ✽.I enter \"Nisan\" of the car(file:///C:/Motor.Project/Motors.Test.Project/src/test/java/co/uk/motors/features/CustomerCanSearchForCarsForSale.feature:26)\r\n",
+              "duration": 10353000000,
+              "status": "failed"
+            },
+            "line": 26,
+            "name": "I enter \"Nisan\" of the car",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Nisan\"",
+                  "offset": 8
+                }
+              ],
+              "location": "co.uk.motors.stepDefinations.ForSaleSeachStep.i_enter_of_the_car(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "I select \"c-hr\" of the car",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"c-hr\"",
+                  "offset": 9
+                }
+              ],
+              "location": "co.uk.motors.stepDefinations.ForSaleSeachStep.i_select_of_the_car(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "I select \"£10,000\" of the car",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"£10,000\"",
+                  "offset": 9
+                }
+              ],
+              "location": "co.uk.motors.stepDefinations.ForSaleSeachStep.i_select_of_the_car(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 29,
+            "name": "I select \"£15000\" of the car",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"£15000\"",
+                  "offset": 9
+                }
+              ],
+              "location": "co.uk.motors.stepDefinations.ForSaleSeachStep.i_select_of_the_car(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 30,
+            "name": "I click on monthly cost",
+            "match": {
+              "location": "co.uk.motors.stepDefinations.ForSaleSeachStep.i_click_on_monthly_cost()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 31,
+            "name": "I click on search button",
+            "match": {
+              "location": "co.uk.motors.stepDefinations.ForSaleSeachStep.i_click_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 32,
+            "name": "The search car page is remain",
+            "match": {
+              "location": "co.uk.motors.stepDefinations.ForSaleSeachStep.the_search_car_page_is_remain()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Search For Cars For Sale",
+    "description": "  As a customer\n  I want ability to search for cars for sale\n  so that i can purchase the car of my choice",
+    "id": "search-for-cars-for-sale",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/co/uk/motors/features/CustomerCanSearchForCarsForSale.feature",
+    "tags": []
+  }
+]

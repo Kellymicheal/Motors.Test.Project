@@ -8,9 +8,10 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = {"src/test/java/co/uk/motors/features"},
         plugin = {"pretty","json:target/report.json",
-                "de.monochromata.cucumber.pretty.PrettyReports:target/pretty-cucumber"},
-            glue = ("co/uk/motors/stepDefinations"),
-        tags = {"not @ignore"}
+                "de.monochromata.cucumber.report.PrettyReports:target/pretty-cucumber"}
+            ,glue = {"co/uk/motors/hooks", "co/uk/motors/stepDefinations"},
+        tags = ("not @ignore")
+
 
 )
 public class TestRunner {

@@ -12,14 +12,14 @@ Feature: Search For Cars For Sale
     And I select "<MaxPrice>" of the car
     And I click on monthly cost
     And I click on search button
-    Then new car page is displaye
+    Then new car page is displayed
     And I click on any result to view more detail
 
 
     Examples:
-      |Postcode| Make   |MinPrice|MaxPrice|
-      |M9 4wq  |Peugeot |£10,000 |£15000  |
-@ignore
+      |Postcode| Make   |Model|MinPrice|MaxPrice|
+      |M9 4wq  |Toyota | c-hr     |£10,000 |£15000  |
+
   Scenario Outline: Customer cannot search for cars for sale
     Given I navigate to motors homepage
     When I enter "<Postcode>" of my house
@@ -29,10 +29,8 @@ Feature: Search For Cars For Sale
     And I select "<MaxPrice>" of the car
     And I click on monthly cost
     And I click on search button
-    Then new car page is displaye
-    And I click on any result to view more detail
-
+    Then The search car page is remain
 
     Examples:
-      |Postcode| Make   |MinPrice|MaxPrice|
-      |        |Nisan   |£10,000 |£15000  |
+      |Postcode| Make   |Model|MinPrice|MaxPrice|
+      |        |Nisan   |c-hr |£10,000 |£15000  |
