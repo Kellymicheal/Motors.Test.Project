@@ -8,17 +8,16 @@ Feature: Search For Cars For Sale
     When I enter "<Postcode>" of my house
     And I enter "<Make>" of the car
     And I select "<Model>" of the car
-    And I select "<MinPrice>" of the car
-    And I select "<MaxPrice>" of the car
-    And I click on monthly cost
+    And I select "<MinPrice>" from the dropdown
+    And I select "<MaxPrice>" from the dropdown
     And I click on search button
     Then new car page is displayed
     And I click on any result to view more detail
 
 
     Examples:
-      |Postcode| Make   |Model|MinPrice|MaxPrice|
-      |M9 4wq  |Toyota | c-hr     |£10,000 |£15000  |
+      |Postcode| Make  |Model|MinPrice|MaxPrice|
+      |M9 4wq  |Toyota | C-HR|£10,000 |£15,000  |
 
   Scenario Outline: Customer cannot search for cars for sale
     Given I navigate to motors homepage
@@ -27,7 +26,6 @@ Feature: Search For Cars For Sale
     And I select "<Model>" of the car
     And I select "<MinPrice>" of the car
     And I select "<MaxPrice>" of the car
-    And I click on monthly cost
     And I click on search button
     Then The search car page is remain
 

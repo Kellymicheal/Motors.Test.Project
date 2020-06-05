@@ -2,16 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5519499b-d5fa-4d7b-ac5c-ecce5a9ac6e5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/co/uk/motors/Common/BrowserClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/co/uk/motors/Common/DriverLib.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/co/uk/motors/Page/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/co/uk/motors/Page/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/co/uk/motors/hooks/Hook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/co/uk/motors/stepDefinations/ForSaleSeachStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/co/uk/motors/Page/SearchResultPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/co/uk/motors/stepDefinations/ForSaleSearchStep.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/motors/Page/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/uk/motors/Page/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/motors/features/CustomerCanSearchForCarsForSale.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/uk/motors/features/CustomerCanSearchForCarsForSale.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/motors/runners/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/uk/motors/runners/TestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/co/uk/motors/runners/TestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/co/uk/motors/runners/TestRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/motors/stepDefinations/ForSaleSeachStep.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/overview-failures.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/overview-failures.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/overview-features.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/overview-features.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/overview-steps.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/overview-steps.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/overview-tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/overview-tags.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/report-feature_2737098425.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/report-feature_2737098425.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/report.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/report.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/co/uk/motors/Page/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/co/uk/motors/Page/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/co/uk/motors/stepDefinations/ForSaleSeachStep.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,22 +105,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="114" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1590742875773" />
-    <state width="1323" height="2" key="GridCell.Tab.0.bottom" timestamp="1590834208488">
+    <state width="1323" height="140" key="GridCell.Tab.0.bottom" timestamp="1591315405989">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="2" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590834208488" />
-    <state width="1323" height="2" key="GridCell.Tab.0.center" timestamp="1590834208488">
+    <state width="1323" height="140" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1591315405989" />
+    <state width="1323" height="140" key="GridCell.Tab.0.center" timestamp="1591315405989">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="2" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1590834208488" />
-    <state width="1323" height="2" key="GridCell.Tab.0.left" timestamp="1590834208488">
+    <state width="1323" height="140" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1591315405989" />
+    <state width="1323" height="140" key="GridCell.Tab.0.left" timestamp="1591315405989">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="2" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1590834208488" />
-    <state width="1323" height="2" key="GridCell.Tab.0.right" timestamp="1590834208488">
+    <state width="1323" height="140" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1591315405989" />
+    <state width="1323" height="140" key="GridCell.Tab.0.right" timestamp="1591315405989">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="2" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1590834208488" />
+    <state width="1323" height="140" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1591315405989" />
     <state x="213" y="22" key="Maven.ArtifactSearchDialog" timestamp="1590741006250">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -125,6 +129,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="391" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1590330203745" />
+    <state x="350" y="6" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1590845677134">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="350" y="6" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.728@0.0.1366.728" timestamp="1590845677134" />
     <state x="494" y="283" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589831841402">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
